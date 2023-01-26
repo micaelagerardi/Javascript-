@@ -1,15 +1,5 @@
 // Solicitamos al usuario que ingrese el lugar a donde quiere viajar y se le indica el valor del viaje
 
-/*const nombre = prompt("Ingrese su nombre:");
-const edad = parseInt(prompt("Ingrese su edad:"));
-
-if (nombre != " " && while edad >= 18) {
-  alert("Acceso permitido");
-} else {
-  alert("acceso denegado");
-}
-*/
-
 let nombre = prompt("Ingrese su nombre:");
 let edad = parseInt(prompt("Ingrese la edad"));
 while (edad < 18 && nombre != " ") {
